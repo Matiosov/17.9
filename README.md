@@ -20,6 +20,7 @@
 
 # САМ КОД:
 
+
 array = [int(x) for x in input("Введите числа от 1 до 99 в любом порядке, через пробел: ").split()]
 def merge_sort(array):  # "разделяй"
     if len(array) < 2:  # если кусок массива равен 2,
@@ -72,3 +73,4 @@ def binary_search(array, element, left, right):
         return binary_search(array, element, middle + 1, right)
 
 print(binary_search(array, element, 0, len(array)))
+
