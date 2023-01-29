@@ -70,4 +70,4 @@ def binary_search(array, element, left, right):
     else:  # иначе в правой
         return binary_search(array, element, middle + 1, right)
 
-print(binary_search(array, element, 0, len(array)))
+print(binary_search(array, element, 0, len(array)-1))
